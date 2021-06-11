@@ -1,0 +1,61 @@
+.menu{
+    width: 1200px;
+    height: 33px;
+    background-color: rgb(235, 235, 235);
+    line-height: 35px;
+    margin: 20px auto;
+    color: #999;
+}
+.menu div{
+    float: left;
+}
+.tec,.xuan{
+    width: 60px;
+    padding: 0 10px;
+}
+.pic,.pri,.num,.pho,.pri1,.num1{
+    width: 160px;
+    text-align: center;
+}
+.com,.name1{
+    width: 410px;
+    padding: 0 10px;
+}
+.lit,.pri2{
+    width: 120px;
+    padding: 0 10px;
+}
+.list{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.list li{
+    float: left;
+}
+.pho img{
+    width: 60px;
+}
+.choo{
+    width: 1150px;
+    margin: 10px auto;
+    padding-left: 50px;
+}
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+}
+.cart button{
+    border: none;
+    background: none;
+}
+.cont{
+    line-height: 40px;
+}
+.jumbotron{
+    width: 1200px;
+    margin: 20px auto;
+
+}

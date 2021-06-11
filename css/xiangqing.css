@@ -1,0 +1,81 @@
+.detail{
+    width: 1200px;
+    margin: 0 auto;
+}
+.detail-top{
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    position: relative;
+}
+.pho-mid img{
+    width: 500px;
+}
+.mask{
+    width: 250px;
+    height: 375px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top:0px;
+    left: 0px;
+    display: none;
+}
+#rightBox{
+    width: 500px;
+    height: 750px;
+    position: absolute;
+    top:0;
+    left: 510px;
+    overflow: hidden;
+    display: none;
+}
+#rightBox img{
+    position: absolute;
+    width: 1000px;
+}
+.inform{
+    margin: 60px 0 0 100px;
+    width: 480px;
+    line-height: 30px;
+}
+.pho-big img{
+    width: 1080px;
+    margin: 20px auto;
+}
+.mes{
+    color: #ccc;
+    line-height: 30px;
+    margin-top: 50px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+.mes span{
+    font-size: 14px;
+}
+.li1{
+    display: block;
+    width: 150px;
+    float: left;
+}
+.li2{
+    display: block;
+    width: 150px; 
+    float: left;
+}
+.add{
+    width: 250px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border: none;
+    font-size: 18px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.detail-bottom{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+}

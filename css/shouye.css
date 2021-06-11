@@ -1,0 +1,129 @@
+/* 顶部 */
+.head{
+    width: 1200px;
+    margin: 0 auto 50px;
+    padding: 30px 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 150px;
+}
+.logo img{
+    width: 342px;
+}
+.head-nav span{
+    font-size: 12px;
+    color: #555;
+    padding: 0 12px;
+}
+/* 导航 */
+.mid-nav{
+    margin: 0 auto;
+    padding: 0 480px;
+}
+.mid-nav li{
+    line-height: 60px;
+    float: left;
+    margin: 0 40px;
+}
+/* 公告 */
+.announcement{
+    width: 1200px;
+    background-color: #eee;
+    text-align: center;
+    margin: 0 auto;
+    font-family: STXihei;
+    padding: 5px 0;
+}
+/* 轮播图 */
+.banner{
+    margin: 10px auto;
+    width: 1200px;
+    height: 450px;
+    position: relative;
+}
+.banner-img{
+    width: 1200px;
+    height: 450px;
+    overflow: hidden;
+}
+.banner-pic{
+    width: 7200px;
+    height: 450px;
+    overflow: hidden;
+}
+.bp1{
+    height: 450px;
+    float: left;
+    position: absolute;
+}
+.banner-pic img{
+    width: 1200px;  
+}
+.banner1{
+    position: absolute;
+    bottom: 20px;
+    left: 550px;
+}
+.banner1 li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    background: #aaa;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+/* 商品 */
+
+.goods,.bag,.shoes,.acce{
+    width: 1200px;
+    margin: 10px auto;
+}
+.goods1 img,.goods2 img{
+    width: 600px;
+    float: left;
+}
+/* 分类 */
+.bag img,.shoes img, .acce img{
+    width: 1200px;
+}
+.bag p,.shoes p, .acce p{
+    text-align: right;
+    font-size: 12px;
+}
+/* 底部 */
+.footer{
+    width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    color: #999;
+}
+.app img{
+    width: 350px;
+}
+.footer-p1{
+    font-size: 17px;
+    line-height: 55px;
+}
+.footer-nav a,.shop a{
+    color: #999;
+}
+.footer-nav span,.shop span{
+    margin: 0 15px;
+}
+.footer-p2{
+    line-height: 60px;
+    font-size: STXihei;
+}
+.we img{
+    width: 40px;
+    margin: 10px 10px;
+}
+.trade{
+    margin: 15px 0;
+}
+.trade img{
+    width: 20px;
+    margin-left: 20px;
+}
